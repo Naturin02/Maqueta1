@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Color del texto de navegación */
+}
+
+.green-background {
+    background-color: #00FF00; /* Color de fondo verde */
+    border-top: 1px solid black; /* Línea negra encima del área verde */
+    padding-top: 10px; /* Deja espacio para la barra de navegación */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea verticalmente los elementos */
+    height: 100px; /* Ajusta la altura de la sección verde */
+}
+
+.box {
+    width: 25%; /* Ajusta el ancho de los recuadros según sea necesario */
+    height: calc(100% - 40px); /* Ajusta la altura de los recuadros según sea necesario */
+    background-color: white; /* Color de fondo de los recuadros */
+    margin: 10px; /* Espacio entre los recuadros */
+    border: 1px solid black; /* Añade un borde negro a los recuadros */
+}
+
+.blue-background {
+    background-color: #0000FF; /* Color de fondo azul */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.banner {
+    width: 1125px; /* Ancho del banner */
+    height: 300px; /* Altura del banner */
+    background-color: white; /* Color de fondo del banner */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spacer {
+    width: 100px; /* Ancho del espacio en blanco */
+    height: 75px; /* Altura del espacio en blanco */
+}
+
+.rectangulo {
+    width: 150px; /* Ancho del rectángulo */
+    height: 80px; /* Altura del rectángulo */
+    background-color: white; /* Color de fondo del rectángulo */
+    margin-bottom: 20px; /* Ajusta el espacio entre los rectángulos según sea necesario */
+    border: 2px solid black; /* Borde del rectángulo */
+}
+
+main {
+    height: 750px;
+    width: auto;
+    background-color: #ce8104;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+article {
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+aside {
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.aside-left {
+    order: -1;
+}
+
+.aside-right {
+    order: 1;
+}
+
+
+footer {
+    height: 50px;
+    width: auto;
+    background-color: #e02323;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
